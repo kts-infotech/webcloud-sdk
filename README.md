@@ -2,7 +2,9 @@
 KTS WebCloud | Multipurpose Web Based Business Application Platform | Software Development Kit | Documentation | Sample Code Repository
 
 Please Read the following
+
  How to start ?
+ 
    -> Please start and run "Samples\CSharp\WebCloudAPITest\WebCloudAPITest.sln"
    
    -> Provide the URL http://test2.virtualtutor.co.in/ 

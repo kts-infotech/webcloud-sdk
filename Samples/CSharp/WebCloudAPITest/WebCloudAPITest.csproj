@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08D900A7-8E0E-4E83-8089-74E023B434B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WebCloudAPITest</RootNamespace>
+    <AssemblyName>WebCloudAPITest</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary">
+      <HintPath>packages\PlaceholderTextBox.1.3.0\lib\net40\ClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.4.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.SignalR.Client.2.4.2\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.4.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.SignalR.Core.2.4.2\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.4.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.SignalR.SystemWeb.2.4.2\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\NAudio\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WstWebServiceImpl, Version=1.0.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>WebCloudApiDs\WstWebServiceImpl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccMenu\AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\AddAdmin.Designer.cs">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\AddExamCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\AddExamCategory.Designer.cs">
+      <DependentUpon>AddExamCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\AddExamSubCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\AddExamSubCategory.Designer.cs">
+      <DependentUpon>AddExamSubCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommMenu\AllOnlineUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommMenu\AllOnlineUsers.Designer.cs">
+      <DependentUpon>AllOnlineUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommMenu\AllUserInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommMenu\AllUserInfoForm.Designer.cs">
+      <DependentUpon>AllUserInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\ApplyForLeaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\ApplyForLeaveForm.Designer.cs">
+      <DependentUpon>ApplyForLeaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\ApproveOrRejectLeaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\ApproveOrRejectLeaveForm.Designer.cs">
+      <DependentUpon>ApproveOrRejectLeaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PmMenu\AssignTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PmMenu\AssignTaskForm.Designer.cs">
+      <DependentUpon>AssignTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\BlockUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\BlockUser.Designer.cs">
+      <DependentUpon>BlockUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\DownloadAppDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\DownloadAppDataForm.Designer.cs">
+      <DependentUpon>DownloadAppDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\FileNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\FileNameForm.Designer.cs">
+      <DependentUpon>FileNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\UploadAppDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\UploadAppDataForm.Designer.cs">
+      <DependentUpon>UploadAppDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\AddDelFooter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\AddDelFooter.Designer.cs">
+      <DependentUpon>AddDelFooter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\AddDelHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\AddDelHeader.Designer.cs">
+      <DependentUpon>AddDelHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\AddExternalLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\AddExternalLink.Designer.cs">
+      <DependentUpon>AddExternalLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\AddInternalLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\AddInternalLink.Designer.cs">
+      <DependentUpon>AddInternalLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\GetALLExternalLinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\GetALLExternalLinks.Designer.cs">
+      <DependentUpon>GetALLExternalLinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\GetALLInternalLinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\GetALLInternalLinks.Designer.cs">
+      <DependentUpon>GetALLInternalLinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\GetDetailedPageInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\GetDetailedPageInfo.Designer.cs">
+      <DependentUpon>GetDetailedPageInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\GetSeoPageInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\GetSeoPageInfo.Designer.cs">
+      <DependentUpon>GetSeoPageInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\ListAllPageInfoWithLinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\ListAllPageInfoWithLinks.Designer.cs">
+      <DependentUpon>ListAllPageInfoWithLinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMenu\SetSeoPageInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSMenu\SetSeoPageInfo.Designer.cs">
+      <DependentUpon>SetSeoPageInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommMenu\SignalRCommClient.cs" />
+    <Compile Include="EComMenu\CompanyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EComMenu\CompanyForm.Designer.cs">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EComMenu\CompanyListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EComMenu\CompanyListForm.Designer.cs">
+      <DependentUpon>CompanyListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EComMenu\CompanyProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EComMenu\CompanyProductForm.Designer.cs">
+      <DependentUpon>CompanyProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EComMenu\CompanyProductListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EComMenu\CompanyProductListForm.Designer.cs">
+      <DependentUpon>CompanyProductListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\Copy.Designer.cs">
+      <DependentUpon>Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\DeleteAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\DeleteAdmin.Designer.cs">
+      <DependentUpon>DeleteAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\DeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\DeleteUser.Designer.cs">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DtMenu\DtGetAssigTaskListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtMenu\DtGetAssigTaskListForm.Designer.cs">
+      <DependentUpon>DtGetAssigTaskListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DtMenu\DtGetBugTrackerDetailList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtMenu\DtGetBugTrackerDetailList.Designer.cs">
+      <DependentUpon>DtGetBugTrackerDetailList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\ExamCategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\ExamCategoryList.Designer.cs">
+      <DependentUpon>ExamCategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\ExamDefaultSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\ExamDefaultSettings.Designer.cs">
+      <DependentUpon>ExamDefaultSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\ExamQuestionPaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\ExamQuestionPaper.Designer.cs">
+      <DependentUpon>ExamQuestionPaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\ExamSubCategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\ExamSubCategoryList.Designer.cs">
+      <DependentUpon>ExamSubCategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\FileDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\FileDownloadForm.Designer.cs">
+      <DependentUpon>FileDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\FileUploadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\FileUploadForm.Designer.cs">
+      <DependentUpon>FileUploadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AddComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AddComment.Designer.cs">
+      <DependentUpon>AddComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AddForum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AddForum.Designer.cs">
+      <DependentUpon>AddForum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AddThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AddThread.Designer.cs">
+      <DependentUpon>AddThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AddTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AddTopic.Designer.cs">
+      <DependentUpon>AddTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AllForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AllForms.Designer.cs">
+      <DependentUpon>AllForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\AllTopicsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\AllTopicsForm.Designer.cs">
+      <DependentUpon>AllTopicsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\DelComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\DelComment.Designer.cs">
+      <DependentUpon>DelComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\DeleteThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\DeleteThread.Designer.cs">
+      <DependentUpon>DeleteThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMenu\GetAllThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForumMenu\GetAllThread.Designer.cs">
+      <DependentUpon>GetAllThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DtMenu\GetAllBugList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtMenu\GetAllBugList.Designer.cs">
+      <DependentUpon>GetAllBugList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\HrSendEmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\HrSendEmailForm.Designer.cs">
+      <DependentUpon>HrSendEmailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\ImportQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\ImportQuestions.Designer.cs">
+      <DependentUpon>ImportQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\InvitEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\InvitEmployeeForm.Designer.cs">
+      <DependentUpon>InvitEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\InviteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\InviteUser.Designer.cs">
+      <DependentUpon>InviteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseMenu\FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseMenu\FormRegister.Designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseMenu\GetLicenseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseMenu\GetLicenseInfo.Designer.cs">
+      <DependentUpon>GetLicenseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseMenu\LicenceTestApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseMenu\LicenceTestApp.Designer.cs">
+      <DependentUpon>LicenceTestApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBMenu\ListAllDirFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMenu\ListAllDirFilesForm.Designer.cs">
+      <DependentUpon>ListAllDirFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HrMenu\ListAllLeaveApplicationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HrMenu\ListAllLeaveApplicationsForm.Designer.cs">
+      <DependentUpon>ListAllLeaveApplicationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EComMenu\PaymentGatewaySettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EComMenu\PaymentGatewaySettingsForm.Designer.cs">
+      <DependentUpon>PaymentGatewaySettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DtMenu\PostADefectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtMenu\PostADefectForm.Designer.cs">
+      <DependentUpon>PostADefectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PmMenu\ProjectsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PmMenu\ProjectsForm.Designer.cs">
+      <DependentUpon>ProjectsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\QMaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\QMaster.Designer.cs">
+      <DependentUpon>QMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionCustomization.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionCustomization.Designer.cs">
+      <DependentUpon>QuestionCustomization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionMaster.Designer.cs">
+      <DependentUpon>QuestionMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionPaper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\QuestionPaper.Designer.cs">
+      <DependentUpon>QuestionPaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommMenu\SendEmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommMenu\SendEmailForm.Designer.cs">
+      <DependentUpon>SendEmailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\AppAccountService.cs" />
+    <Compile Include="Services\AppApiService.cs" />
+    <Compile Include="Services\AppAuthService.cs" />
+    <Compile Include="Services\AppCBService.cs" />
+    <Compile Include="Services\AppCmsService.cs" />
+    <Compile Include="Services\AppCommService.cs" />
+    <Compile Include="Services\AppCommunicationClient.cs" />
+    <Compile Include="Services\AppDTService.cs" />
+    <Compile Include="Services\AppEComService.cs" />
+    <Compile Include="Services\AppExamService.cs" />
+    <Compile Include="Services\AppForumService.cs" />
+    <Compile Include="Services\AppHRService.cs" />
+    <Compile Include="Services\AppLicenseService.cs" />
+    <Compile Include="Services\AppPMSeervice.cs" />
+    <Compile Include="Services\AppSettingsService.cs" />
+    <Compile Include="Services\AppTTService.cs" />
+    <Compile Include="PmMenu\SubTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PmMenu\SubTaskForm.Designer.cs">
+      <DependentUpon>SubTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PmMenu\TaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PmMenu\TaskForm.Designer.cs">
+      <DependentUpon>TaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestData\ApiAccountTestDataUtil.cs" />
+    <Compile Include="TestData\ApiCBTestDataUtil.cs" />
+    <Compile Include="TestData\ApiCmsTestDataUtils.cs" />
+    <Compile Include="TestData\ApiCommTestDataUtils.cs" />
+    <Compile Include="TestData\ApiDTTestDataUtils.cs" />
+    <Compile Include="TestData\ApiEComTestDataUtils.cs" />
+    <Compile Include="TestData\ApiExamTestDataUtils.cs" />
+    <Compile Include="TestData\ApiForumTestDataUtils.cs" />
+    <Compile Include="TestData\ApiHRTestDataUtils.cs" />
+    <Compile Include="TestData\ApiLicenseTestDataUtils.cs" />
+    <Compile Include="TestData\ApiPMTestDataUtils.cs" />
+    <Compile Include="TestData\ApiTestDataUtil.cs" />
+    <Compile Include="TestData\ApiTTTestDataUtil.cs" />
+    <Compile Include="CommMenu\TextChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommMenu\TextChatForm.Designer.cs">
+      <DependentUpon>TextChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTMenu\GetTTSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTMenu\GetTTSettings.Designer.cs">
+      <DependentUpon>GetTTSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTMenu\TTDataSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTMenu\TTDataSummary.Designer.cs">
+      <DependentUpon>TTDataSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTMenu\UploadWorkLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTMenu\UploadWorkLog.Designer.cs">
+      <DependentUpon>UploadWorkLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamMenu\UCCopyQuestions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExamMenu\UCCopyQuestions.Designer.cs">
+      <DependentUpon>UCCopyQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccMenu\UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccMenu\UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DtMenu\UserTaskDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtMenu\UserTaskDetailsForm.Designer.cs">
+      <DependentUpon>UserTaskDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommMenu\VoiceChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommMenu\VoiceChatForm.Designer.cs">
+      <DependentUpon>VoiceChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebCloudAPIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCloudAPIForm.Designer.cs">
+      <DependentUpon>WebCloudAPIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccMenu\AddAdmin.resx">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\AddExamCategory.resx">
+      <DependentUpon>AddExamCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\AddExamSubCategory.resx">
+      <DependentUpon>AddExamSubCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommMenu\AllOnlineUsers.resx">
+      <DependentUpon>AllOnlineUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommMenu\AllUserInfoForm.resx">
+      <DependentUpon>AllUserInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\ApplyForLeaveForm.resx">
+      <DependentUpon>ApplyForLeaveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\ApproveOrRejectLeaveForm.resx">
+      <DependentUpon>ApproveOrRejectLeaveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PmMenu\AssignTaskForm.resx">
+      <DependentUpon>AssignTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\BlockUser.resx">
+      <DependentUpon>BlockUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\DownloadAppDataForm.resx">
+      <DependentUpon>DownloadAppDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\FileNameForm.resx">
+      <DependentUpon>FileNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\UploadAppDataForm.resx">
+      <DependentUpon>UploadAppDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\AddDelFooter.resx">
+      <DependentUpon>AddDelFooter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\AddDelHeader.resx">
+      <DependentUpon>AddDelHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\AddExternalLink.resx">
+      <DependentUpon>AddExternalLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\AddInternalLink.resx">
+      <DependentUpon>AddInternalLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\GetALLExternalLinks.resx">
+      <DependentUpon>GetALLExternalLinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\GetALLInternalLinks.resx">
+      <DependentUpon>GetALLInternalLinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\GetDetailedPageInfo.resx">
+      <DependentUpon>GetDetailedPageInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\GetSeoPageInfo.resx">
+      <DependentUpon>GetSeoPageInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\ListAllPageInfoWithLinks.resx">
+      <DependentUpon>ListAllPageInfoWithLinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSMenu\SetSeoPageInfo.resx">
+      <DependentUpon>SetSeoPageInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EComMenu\CompanyForm.resx">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EComMenu\CompanyListForm.resx">
+      <DependentUpon>CompanyListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EComMenu\CompanyProductForm.resx">
+      <DependentUpon>CompanyProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EComMenu\CompanyProductListForm.resx">
+      <DependentUpon>CompanyProductListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\Copy.resx">
+      <DependentUpon>Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\DeleteAdmin.resx">
+      <DependentUpon>DeleteAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\DeleteUser.resx">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DtMenu\DtGetAssigTaskListForm.resx">
+      <DependentUpon>DtGetAssigTaskListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DtMenu\DtGetBugTrackerDetailList.resx">
+      <DependentUpon>DtGetBugTrackerDetailList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\ExamCategoryList.resx">
+      <DependentUpon>ExamCategoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\ExamDefaultSettings.resx">
+      <DependentUpon>ExamDefaultSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\ExamQuestionPaper.resx">
+      <DependentUpon>ExamQuestionPaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\ExamSubCategoryList.resx">
+      <DependentUpon>ExamSubCategoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\FileDownloadForm.resx">
+      <DependentUpon>FileDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\FileUploadForm.resx">
+      <DependentUpon>FileUploadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AddComment.resx">
+      <DependentUpon>AddComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AddForum.resx">
+      <DependentUpon>AddForum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AddThread.resx">
+      <DependentUpon>AddThread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AddTopic.resx">
+      <DependentUpon>AddTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AllForms.resx">
+      <DependentUpon>AllForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\AllTopicsForm.resx">
+      <DependentUpon>AllTopicsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\DelComment.resx">
+      <DependentUpon>DelComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\DeleteThread.resx">
+      <DependentUpon>DeleteThread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForumMenu\GetAllThread.resx">
+      <DependentUpon>GetAllThread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DtMenu\GetAllBugList.resx">
+      <DependentUpon>GetAllBugList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\HrSendEmailForm.resx">
+      <DependentUpon>HrSendEmailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\ImportQuestions.resx">
+      <DependentUpon>ImportQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\InvitEmployeeForm.resx">
+      <DependentUpon>InvitEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\InviteUser.resx">
+      <DependentUpon>InviteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseMenu\FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseMenu\GetLicenseInfo.resx">
+      <DependentUpon>GetLicenseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseMenu\LicenceTestApp.resx">
+      <DependentUpon>LicenceTestApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBMenu\ListAllDirFilesForm.resx">
+      <DependentUpon>ListAllDirFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HrMenu\ListAllLeaveApplicationsForm.resx">
+      <DependentUpon>ListAllLeaveApplicationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EComMenu\PaymentGatewaySettingsForm.resx">
+      <DependentUpon>PaymentGatewaySettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DtMenu\PostADefectForm.resx">
+      <DependentUpon>PostADefectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\QMaster.resx">
+      <DependentUpon>QMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\QuestionCustomization.resx">
+      <DependentUpon>QuestionCustomization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\QuestionMaster.resx">
+      <DependentUpon>QuestionMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\QuestionPaper.resx">
+      <DependentUpon>QuestionPaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PmMenu\ProjectsForm.resx">
+      <DependentUpon>ProjectsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommMenu\SendEmailForm.resx">
+      <DependentUpon>SendEmailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PmMenu\SubTaskForm.resx">
+      <DependentUpon>SubTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PmMenu\TaskForm.resx">
+      <DependentUpon>TaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommMenu\TextChatForm.resx">
+      <DependentUpon>TextChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTMenu\GetTTSettings.resx">
+      <DependentUpon>GetTTSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTMenu\TTDataSummary.resx">
+      <DependentUpon>TTDataSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTMenu\UploadWorkLog.resx">
+      <DependentUpon>UploadWorkLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamMenu\UCCopyQuestions.resx">
+      <DependentUpon>UCCopyQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccMenu\UserList.resx">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DtMenu\UserTaskDetailsForm.resx">
+      <DependentUpon>UserTaskDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommMenu\VoiceChatForm.resx">
+      <DependentUpon>VoiceChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebCloudAPIForm.resx">
+      <DependentUpon>WebCloudAPIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About_us_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutbox_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginkey1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_received_tone.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Telegram-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unmute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_Contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.ico" />
+    <None Include="Resources\Add_16x16.png" />
+    <None Include="Resources\arrow_down.ico" />
+    <None Include="Resources\arrow_up.ico" />
+    <Content Include="Resources\Attachment_Icon_16.png" />
+    <None Include="Resources\Attachment_Icon_161.png" />
+    <None Include="Resources\Send.ico" />
+    <None Include="Resources\Send_256x256.png" />
+    <None Include="Resources\Globe_16x16.png" />
+    <None Include="Resources\Play_Normal_Icon_64.png" />
+    <None Include="Resources\Stop_Normal_Red_Icon_64.png" />
+    <None Include="Resources\Play_Disabled_Icon_64.png" />
+    <None Include="Resources\Stop_Disabled_Icon_64.png" />
+    <None Include="Resources\dial.png" />
+    <None Include="Resources\hang-up.png" />
+    <None Include="Resources\ringing.gif" />
+    <None Include="Resources\ringing_phone.gif" />
+    <None Include="Resources\ringing_phone64X60.gif" />
+    <None Include="Resources\ringing_snd.wav" />
+    <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.4.js" />
+    <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.2.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.2.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserData\ThumbnailImage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,546 @@
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe.config
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.pdb
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\ClassLibrary.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\NAudio.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Owin.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.dll
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.xml
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.pdb
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.AssemblyReference.cache
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddAdmin.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamCategory.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamSubCategory.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddUser.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllOnlineUsers.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllUserInfoForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApplyForLeaveForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApproveOrRejectLeaveForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AssignTaskForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.BlockUser.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.DownloadAppDataForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.FileNameForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.UploadAppDataForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelFooter.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelHeader.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddExternalLink.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddInternalLink.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLExternalLinks.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLInternalLinks.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetDetailedPageInfo.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetSeoPageInfo.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.ListAllPageInfoWithLinks.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.SetSeoPageInfo.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyListForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductListForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Copy.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteAdmin.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteUser.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetAssigTaskListForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetBugTrackerDetailList.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.EmployeeForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamCategoryList.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamDefaultSettings.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamQuestionPaper.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamSubCategoryList.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileDownloadForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileUploadForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddComment.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddForum.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddThread.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddTopic.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllForms.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllTopicsForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DelComment.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DeleteThread.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.GetAllThread.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.GetAllBugList.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.HrSendEmailForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ImportQuestions.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InvitEmployeeForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InviteUser.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.FormRegister.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.GetLicenseInfo.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.LicenceTestApp.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllDirFilesForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllLeaveApplicationsForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PaymentGatewaySettingsForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PostADefectForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QMaster.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionCustomization.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionMaster.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionPaper.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ProjectsForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SendEmailForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SubTaskForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TaskForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TextChatForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.GetTTSettings.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.TTDataSummary.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.UploadWorkLog.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UCCopyQuestions.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserList.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserTaskDetailsForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.VoiceChatForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\ProjectFrameworkAPITest.WebCloudAPIForm.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Properties.Resources.resources
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.GenerateResource.cache
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CoreCompileInputs.cache
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CopyComplete
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.exe
+D:\WebAPITestApp\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe.config
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\ClassLibrary.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\NAudio.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Owin.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.dll
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.xml
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.pdb
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.AssemblyReference.cache
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.SuggestedBindingRedirects.cache
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddAdmin.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamCategory.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamSubCategory.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddUser.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllOnlineUsers.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllUserInfoForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApplyForLeaveForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApproveOrRejectLeaveForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AssignTaskForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.BlockUser.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.DownloadAppDataForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.FileNameForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.UploadAppDataForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelFooter.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelHeader.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddExternalLink.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddInternalLink.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLExternalLinks.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLInternalLinks.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetDetailedPageInfo.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetSeoPageInfo.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.ListAllPageInfoWithLinks.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.SetSeoPageInfo.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyListForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductListForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Copy.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteAdmin.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteUser.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetAssigTaskListForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetBugTrackerDetailList.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.EmployeeForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamCategoryList.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamDefaultSettings.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamQuestionPaper.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamSubCategoryList.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileDownloadForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileUploadForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddComment.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddForum.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddThread.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddTopic.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllForms.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllTopicsForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DelComment.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DeleteThread.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.GetAllThread.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.GetAllBugList.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.HrSendEmailForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ImportQuestions.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InvitEmployeeForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InviteUser.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.FormRegister.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.GetLicenseInfo.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.LicenceTestApp.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllDirFilesForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllLeaveApplicationsForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PaymentGatewaySettingsForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PostADefectForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QMaster.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionCustomization.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionMaster.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionPaper.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ProjectsForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SendEmailForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SubTaskForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TaskForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TextChatForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.GetTTSettings.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.TTDataSummary.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.UploadWorkLog.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UCCopyQuestions.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserList.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserTaskDetailsForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.VoiceChatForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\ProjectFrameworkAPITest.WebCloudAPIForm.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Properties.Resources.resources
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.GenerateResource.cache
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CoreCompileInputs.cache
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CopyComplete
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.exe
+E:\workspaces\New folder (2)\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe.config
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\ClassLibrary.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\NAudio.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Owin.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.dll
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.pdb
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.AssemblyReference.cache
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddAdmin.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamCategory.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamSubCategory.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddUser.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllOnlineUsers.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllUserInfoForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApplyForLeaveForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApproveOrRejectLeaveForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AssignTaskForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.BlockUser.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.DownloadAppDataForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.FileNameForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.UploadAppDataForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelFooter.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelHeader.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddExternalLink.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddInternalLink.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLExternalLinks.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLInternalLinks.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetDetailedPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetSeoPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.ListAllPageInfoWithLinks.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.SetSeoPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyListForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductListForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Copy.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteAdmin.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteUser.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetAssigTaskListForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetBugTrackerDetailList.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.EmployeeForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamCategoryList.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamDefaultSettings.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamQuestionPaper.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamSubCategoryList.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileDownloadForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileUploadForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddComment.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddForum.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddThread.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddTopic.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllForms.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllTopicsForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DelComment.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DeleteThread.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.GetAllThread.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.GetAllBugList.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.HrSendEmailForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ImportQuestions.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InvitEmployeeForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InviteUser.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.FormRegister.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.GetLicenseInfo.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.LicenceTestApp.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllDirFilesForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllLeaveApplicationsForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PaymentGatewaySettingsForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PostADefectForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QMaster.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionCustomization.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionMaster.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionPaper.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ProjectsForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SendEmailForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SubTaskForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TaskForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TextChatForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.GetTTSettings.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.TTDataSummary.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.UploadWorkLog.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UCCopyQuestions.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserList.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserTaskDetailsForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.VoiceChatForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\ProjectFrameworkAPITest.WebCloudAPIForm.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Properties.Resources.resources
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.GenerateResource.cache
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CoreCompileInputs.cache
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CopyComplete
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.exe
+C:\Users\VINEETH\Desktop\SVN6\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe.config
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\ClassLibrary.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\NAudio.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Owin.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.dll
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.xml
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.pdb
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.AssemblyReference.cache
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddAdmin.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamCategory.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamSubCategory.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddUser.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllOnlineUsers.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllUserInfoForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApplyForLeaveForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApproveOrRejectLeaveForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AssignTaskForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.BlockUser.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.DownloadAppDataForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.FileNameForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.UploadAppDataForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelFooter.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelHeader.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddExternalLink.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddInternalLink.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLExternalLinks.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLInternalLinks.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetDetailedPageInfo.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetSeoPageInfo.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.ListAllPageInfoWithLinks.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.SetSeoPageInfo.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyListForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductListForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Copy.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteAdmin.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteUser.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetAssigTaskListForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetBugTrackerDetailList.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.EmployeeForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamCategoryList.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamDefaultSettings.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamQuestionPaper.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamSubCategoryList.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileDownloadForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileUploadForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddComment.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddForum.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddThread.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddTopic.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllForms.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllTopicsForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DelComment.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DeleteThread.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.GetAllThread.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.GetAllBugList.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.HrSendEmailForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ImportQuestions.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InvitEmployeeForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InviteUser.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.FormRegister.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.GetLicenseInfo.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.LicenceTestApp.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllDirFilesForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllLeaveApplicationsForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PaymentGatewaySettingsForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PostADefectForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QMaster.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionCustomization.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionMaster.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionPaper.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ProjectsForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SendEmailForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SubTaskForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TaskForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TextChatForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.GetTTSettings.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.TTDataSummary.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.UploadWorkLog.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UCCopyQuestions.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserList.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserTaskDetailsForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.VoiceChatForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\ProjectFrameworkAPITest.WebCloudAPIForm.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Properties.Resources.resources
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.GenerateResource.cache
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CoreCompileInputs.cache
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CopyComplete
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.exe
+D:\Kts\Menu Task\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe.config
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.exe
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\WebCloudAPITest.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\ClassLibrary.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\NAudio.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Owin.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.dll
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\bin\Debug\WstWebServiceImpl.pdb
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.AssemblyReference.cache
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddAdmin.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamCategory.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddExamSubCategory.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AddUser.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllOnlineUsers.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AllUserInfoForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApplyForLeaveForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ApproveOrRejectLeaveForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.AssignTaskForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.BlockUser.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.DownloadAppDataForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.FileNameForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CBMenu.UploadAppDataForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelFooter.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddDelHeader.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddExternalLink.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.AddInternalLink.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLExternalLinks.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetALLInternalLinks.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetDetailedPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.GetSeoPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.ListAllPageInfoWithLinks.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CMSMenu.SetSeoPageInfo.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyListForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.CompanyProductListForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Copy.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteAdmin.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DeleteUser.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetAssigTaskListForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.DtGetBugTrackerDetailList.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.EmployeeForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamCategoryList.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamDefaultSettings.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamQuestionPaper.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ExamSubCategoryList.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileDownloadForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.FileUploadForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddComment.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddForum.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddThread.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AddTopic.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllForms.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.AllTopicsForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DelComment.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.DeleteThread.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ForumMenu.GetAllThread.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.GetAllBugList.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.HrSendEmailForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ImportQuestions.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InvitEmployeeForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.InviteUser.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.FormRegister.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.GetLicenseInfo.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.LicenseMenu.LicenceTestApp.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllDirFilesForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ListAllLeaveApplicationsForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PaymentGatewaySettingsForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.PostADefectForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QMaster.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionCustomization.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionMaster.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.QuestionPaper.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.ProjectsForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SendEmailForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.SubTaskForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TaskForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TextChatForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.GetTTSettings.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.TTDataSummary.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.TTMenu.UploadWorkLog.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UCCopyQuestions.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserList.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.UserTaskDetailsForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.VoiceChatForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\ProjectFrameworkAPITest.WebCloudAPIForm.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.Properties.Resources.resources
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.GenerateResource.cache
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CoreCompileInputs.cache
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.csproj.CopyComplete
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.exe
+C:\Users\VINEETH\Desktop\SVN17\Samples\CSharp\WebCloudAPITest\obj\Debug\WebCloudAPITest.pdb

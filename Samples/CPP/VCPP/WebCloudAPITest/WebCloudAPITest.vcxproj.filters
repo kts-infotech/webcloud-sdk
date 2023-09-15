@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{46231e78-ce9f-4e51-97d0-135810928c1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WebCloudAPITest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebCloudAPITestDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebCloudAPITestView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddadmin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdddelfooter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdddelhedear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddexternallink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Caddinternalink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAllonlineuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calluserinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdeleteadmin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdeleteuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdownloaddataform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdownloadfilefromcloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDtgetassigntasklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cfilenameform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cfileupload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cgetallbuglist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cgetseopageinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cinviteuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpostdeffectform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSentemailform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetseopageinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctextchatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuploadappdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cusertaskdetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cvoicechatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddExamCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddExamSubCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExamCategoriesList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExamDefaultSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExamQuestionPaper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExamSubCategories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddComment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddFourms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddTopic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAllForms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAllTopicForms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDelComment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetAllThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplyForLeave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLeaveApplicationForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmployeeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHrSendEmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInviteEmployeeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFormRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetLicenseInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLicenceTestApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAssignTaskForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubTaskForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetTTSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTTDataSummery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUploadWorkLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Httprequest.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InviteUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAdmin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteAdmin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAllExternalLinks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAllInternalLinks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetDetailedPageInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CListAllPageInfoWithLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetBugTrackerDetailsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetAllForum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetAllTopic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddUpdateDeleteForums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddUpdateDeleteTopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddUpdateThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteAComment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddAComment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteAThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppAccountService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppApiService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppAuthService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppCBService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppCmsService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppCommService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppDTService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppEComService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppExamService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppForumService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppHRService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppLicenseService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppPMSeervice.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppSettingsService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\AppTTService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="CDefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSinglePageSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuestionMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CListLeaveApplications.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WebCloudAPITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebCloudAPITestDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebCloudAPITestView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddadmin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdddelfooter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdddelhedear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddexternallink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Caddinternalink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAllonlineuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calluserinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdeleteadmin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdeleteuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdownloaddataform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdownloadfilefromcloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDtgetassigntasklist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cfilenameform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cfileupload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cgetallbuglist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cgetseopageinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cinviteuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpostdeffectform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSentemailform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetseopageinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctextchatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuploadappdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cusertaskdetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cvoicechatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddExamCategory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddExamSubCategory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCopy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExamCategoriesList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExamDefaultSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExamQuestionPaper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExamSubCategories.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddComment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddFourms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddTopic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAllForms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAllTopicForms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDelComment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetAllThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplyForLeave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLeaveApplicationForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmployeeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHrSendEmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInviteEmployeeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFormRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetLicenseInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLicenceTestApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAssignTaskForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubTaskForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetTTSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTTDataSummery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUploadWorkLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InviteUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAdmin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteAdmin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAllExternalLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAllInternalLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetDetailedPageInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CListAllPageInfoWithLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetBugTrackerDetailsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetAllForum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetAllTopic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddUpdateDeleteForums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddUpdateDeleteTopics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddUpdateThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteAComment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddAComment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteAThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppAccountService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppApiService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppAuthService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppCBService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppCmsService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppCommService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppDTService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppEComService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppExamService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppForumService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppHRService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppLicenseService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppPMSeervice.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppSettingsService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\AppTTService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="CDefault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSinglePageSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuestionMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CListLeaveApplications.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WebCloudAPITest.reg" />
+    <None Include="res\WebCloudAPITest.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WebCloudAPITest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WebCloudAPITestDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\WebCloudAPITest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeleteThreadDlg</class>
+ <widget class="QDialog" name="DeleteThreadDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Delete a Thread</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>371</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="title">
+       <string>Select Thread ID</string>
+      </property>
+      <widget class="QComboBox" name="Select_Delete_Thread_ID">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Select Thread ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Select_Thread_Name_Delete">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>60</y>
+         <width>231</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Thread Name</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="title">
+       <string>Thread Details</string>
+      </property>
+      <widget class="QLabel" name="Thread_Delete2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Assigned Status : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Delete4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Author ID : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Delete1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Bug Status : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Delete3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Posted On : </string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="title">
+       <string>Thread Description </string>
+      </property>
+      <widget class="QTextEdit" name="Thread_Delete_Description">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>331</width>
+         <height>101</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Close_Delete_This_Thread">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>470</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delete_Delete_Thread">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>470</y>
+     <width>106</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Delete This Thread</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+include(AssignTasks/assignTasks.pri)
+include(AUDProjects/audProjects.pri)
+include(AUDSubTasks/audSubTasks.pri)
+include(AUDTasks/audTasks.pri)
+include(GetAllProjects/getAllProjects.pri)
+include(GetAllTasks/getAllTasks.pri)

@@ -1,0 +1,3 @@
+include(GetTimeTrackerSettings/getTimeTrackerSettings.pri)
+include(TTDataSummaryInfo/ttDataSummaryInfo.pri)
+include(UploadWorkLog/uploadWorkLog.pri)

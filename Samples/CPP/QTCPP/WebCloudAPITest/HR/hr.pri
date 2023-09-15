@@ -1,0 +1,6 @@
+include(ApplyForLeave/applyForLeave.pri)
+include(ApproveRejectLeave/approveRejectLeave.pri)
+include(AUDEmployeeDetails/AUDEmployeeDetails.pri)
+include(InformHrManEmail/informHrManEmail.pri)
+include(InviteEmployee/inviteEmployee.pri)
+include(ListAllLeaveAppli/listAllLeaveAppli.pri)

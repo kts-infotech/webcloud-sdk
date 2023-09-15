@@ -1,0 +1,5 @@
+include(AddUpdatePayGateWaySettings/AddUpdatePayGateWaySettings.pri)
+include(AUDCompanyDetails/AUDCompanyDetails.pri)
+include(AUDCompanyProducts/AUDCompanyProducts.pri)
+include(ListAllCompanies/ListAllCompanies.pri)
+include(ListAllCompanyProducts/ListAllCompanyProducts.pri)

@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{DC71D62A-1461-48FC-9D0E-062F3DCF1F80}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>WebCloudAPITest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\KTSTrainees\SDK\WebAPI\Samples\CPP\VCPP\WebCloudAPITest\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>D:\KTSTrainees\SDK\WebAPI\Samples\CPP\VCPP\WebCloudAPITest\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\KTSTrainees\SDK\WebAPI\Samples\CPP\VCPP\WebCloudAPITest\Include</IncludePath>
+    <LibraryPath>D:\KTSTrainees\SDK\WebAPI\Samples\CPP\VCPP\WebCloudAPITest\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>Lib\JsonAppd.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Lib\JsonAppd.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Lib\JsonApp.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AddAdmin.h" />
+    <ClInclude Include="AddUser.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="Base64Util.h" />
+    <ClInclude Include="Blockuser.h" />
+    <ClInclude Include="CAddAComment.h" />
+    <ClInclude Include="CAddadmin.h" />
+    <ClInclude Include="CAddComment.h" />
+    <ClInclude Include="CAdddelfooter.h" />
+    <ClInclude Include="CAdddelhedear.h" />
+    <ClInclude Include="CAddExamCategory.h" />
+    <ClInclude Include="CAddExamSubCategory.h" />
+    <ClInclude Include="CAddexternallink.h" />
+    <ClInclude Include="CAddFourms.h" />
+    <ClInclude Include="Caddinternalink.h" />
+    <ClInclude Include="CAddThread.h" />
+    <ClInclude Include="CAddTopic.h" />
+    <ClInclude Include="CAddUpdateDeleteForums.h" />
+    <ClInclude Include="CAddUpdateDeleteTopics.h" />
+    <ClInclude Include="CAddUpdateThread.h" />
+    <ClInclude Include="CAllForms.h" />
+    <ClInclude Include="CAllonlineuser.h" />
+    <ClInclude Include="CAllTopicForms.h" />
+    <ClInclude Include="Calluserinfo.h" />
+    <ClInclude Include="CApplyForLeave.h" />
+    <ClInclude Include="CAssignTaskForm.h" />
+    <ClInclude Include="CCopy.h" />
+    <ClInclude Include="CDefault.h" />
+    <ClInclude Include="CDelComment.h" />
+    <ClInclude Include="CDeleteAComment.h" />
+    <ClInclude Include="Cdeleteadmin.h" />
+    <ClInclude Include="CDeleteAThread.h" />
+    <ClInclude Include="CDeleteThread.h" />
+    <ClInclude Include="Cdeleteuser.h" />
+    <ClInclude Include="Cdownloaddataform.h" />
+    <ClInclude Include="Cdownloadfilefromcloud.h" />
+    <ClInclude Include="CDtgetassigntasklist.h" />
+    <ClInclude Include="CEmployeeForm.h" />
+    <ClInclude Include="CExamCategoriesList.h" />
+    <ClInclude Include="CExamDefaultSettings.h" />
+    <ClInclude Include="CExamQuestionPaper.h" />
+    <ClInclude Include="CExamSubCategories.h" />
+    <ClInclude Include="Cfilenameform.h" />
+    <ClInclude Include="Cfileupload.h" />
+    <ClInclude Include="CFormRegister.h" />
+    <ClInclude Include="Cgetallbuglist.h" />
+    <ClInclude Include="CGetAllForum.h" />
+    <ClInclude Include="CGetAllThread.h" />
+    <ClInclude Include="CGetAllTopic.h" />
+    <ClInclude Include="CGetBugTrackerDetailsList.h" />
+    <ClInclude Include="CGetDetailedPageInfo.h" />
+    <ClInclude Include="CGetLicenseInfo.h" />
+    <ClInclude Include="Cgetseopageinfo.h" />
+    <ClInclude Include="CGetTTSettings.h" />
+    <ClInclude Include="CHrSendEmail.h" />
+    <ClInclude Include="CImportData.h" />
+    <ClInclude Include="CInviteEmployeeForm.h" />
+    <ClInclude Include="Cinviteuser.h" />
+    <ClInclude Include="CLeaveApplicationForm.h" />
+    <ClInclude Include="CLicenceTestApp.h" />
+    <ClInclude Include="CListAllPageInfoWithLink.h" />
+    <ClInclude Include="CListLeaveApplications.h" />
+    <ClInclude Include="Cpostdeffectform.h" />
+    <ClInclude Include="CProjectForm.h" />
+    <ClInclude Include="CQuestionMaster.h" />
+    <ClInclude Include="CSentemailform.h" />
+    <ClInclude Include="CSetseopageinfo.h" />
+    <ClInclude Include="CSinglePageSettings.h" />
+    <ClInclude Include="CSubTaskForm.h" />
+    <ClInclude Include="CTaskForm.h" />
+    <ClInclude Include="Ctextchatform.h" />
+    <ClInclude Include="CTTDataSummery.h" />
+    <ClInclude Include="Cuploadappdata.h" />
+    <ClInclude Include="CUploadWorkLog.h" />
+    <ClInclude Include="Cusertaskdetails.h" />
+    <ClInclude Include="Cvoicechatform.h" />
+    <ClInclude Include="DeleteAdmin.h" />
+    <ClInclude Include="DeleteUser.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GetAllExternalLinks.h" />
+    <ClInclude Include="GetAllInternalLinks.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Include\Httprequest.hpp" />
+    <ClInclude Include="InviteUser.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NetworkRequest.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Services\AppAccountService.h" />
+    <ClInclude Include="Services\AppApiService.h" />
+    <ClInclude Include="Services\AppAuthService.h" />
+    <ClInclude Include="Services\AppCBService.h" />
+    <ClInclude Include="Services\AppCmsService.h" />
+    <ClInclude Include="Services\AppCommService.h" />
+    <ClInclude Include="Services\AppDTService.h" />
+    <ClInclude Include="Services\AppEComService.h" />
+    <ClInclude Include="Services\AppExamService.h" />
+    <ClInclude Include="Services\AppForumService.h" />
+    <ClInclude Include="Services\AppHRService.h" />
+    <ClInclude Include="Services\AppLicenseService.h" />
+    <ClInclude Include="Services\AppPMSeervice.h" />
+    <ClInclude Include="Services\AppSettingsService.h" />
+    <ClInclude Include="Services\AppTTService.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserListDlg.h" />
+    <ClInclude Include="WebCloudAPITest.h" />
+    <ClInclude Include="WebCloudAPITestDoc.h" />
+    <ClInclude Include="WebCloudAPITestView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddAdmin.cpp" />
+    <ClCompile Include="AddUser.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="Base64Util.cpp" />
+    <ClCompile Include="Blockuser.cpp" />
+    <ClCompile Include="CAddAComment.cpp" />
+    <ClCompile Include="CAddadmin.cpp" />
+    <ClCompile Include="CAddComment.cpp" />
+    <ClCompile Include="CAdddelfooter.cpp" />
+    <ClCompile Include="CAdddelhedear.cpp" />
+    <ClCompile Include="CAddExamCategory.cpp" />
+    <ClCompile Include="CAddExamSubCategory.cpp" />
+    <ClCompile Include="CAddexternallink.cpp" />
+    <ClCompile Include="CAddFourms.cpp" />
+    <ClCompile Include="Caddinternalink.cpp" />
+    <ClCompile Include="CAddThread.cpp" />
+    <ClCompile Include="CAddTopic.cpp" />
+    <ClCompile Include="CAddUpdateDeleteForums.cpp" />
+    <ClCompile Include="CAddUpdateDeleteTopics.cpp" />
+    <ClCompile Include="CAddUpdateThread.cpp" />
+    <ClCompile Include="CAllForms.cpp" />
+    <ClCompile Include="CAllonlineuser.cpp" />
+    <ClCompile Include="CAllTopicForms.cpp" />
+    <ClCompile Include="Calluserinfo.cpp" />
+    <ClCompile Include="CApplyForLeave.cpp" />
+    <ClCompile Include="CAssignTaskForm.cpp" />
+    <ClCompile Include="CCopy.cpp" />
+    <ClCompile Include="CDefault.cpp" />
+    <ClCompile Include="CDelComment.cpp" />
+    <ClCompile Include="CDeleteAComment.cpp" />
+    <ClCompile Include="Cdeleteadmin.cpp" />
+    <ClCompile Include="CDeleteAThread.cpp" />
+    <ClCompile Include="CDeleteThread.cpp" />
+    <ClCompile Include="Cdeleteuser.cpp" />
+    <ClCompile Include="Cdownloaddataform.cpp" />
+    <ClCompile Include="Cdownloadfilefromcloud.cpp" />
+    <ClCompile Include="CDtgetassigntasklist.cpp" />
+    <ClCompile Include="CEmployeeForm.cpp" />
+    <ClCompile Include="CExamCategoriesList.cpp" />
+    <ClCompile Include="CExamDefaultSettings.cpp" />
+    <ClCompile Include="CExamQuestionPaper.cpp" />
+    <ClCompile Include="CExamSubCategories.cpp" />
+    <ClCompile Include="Cfilenameform.cpp" />
+    <ClCompile Include="Cfileupload.cpp" />
+    <ClCompile Include="CFormRegister.cpp" />
+    <ClCompile Include="Cgetallbuglist.cpp" />
+    <ClCompile Include="CGetAllForum.cpp" />
+    <ClCompile Include="CGetAllThread.cpp" />
+    <ClCompile Include="CGetAllTopic.cpp" />
+    <ClCompile Include="CGetBugTrackerDetailsList.cpp" />
+    <ClCompile Include="CGetDetailedPageInfo.cpp" />
+    <ClCompile Include="CGetLicenseInfo.cpp" />
+    <ClCompile Include="Cgetseopageinfo.cpp" />
+    <ClCompile Include="CGetTTSettings.cpp" />
+    <ClCompile Include="CHrSendEmail.cpp" />
+    <ClCompile Include="CImportData.cpp" />
+    <ClCompile Include="CInviteEmployeeForm.cpp" />
+    <ClCompile Include="Cinviteuser.cpp" />
+    <ClCompile Include="CLeaveApplicationForm.cpp" />
+    <ClCompile Include="CLicenceTestApp.cpp" />
+    <ClCompile Include="CListAllPageInfoWithLink.cpp" />
+    <ClCompile Include="CListLeaveApplications.cpp" />
+    <ClCompile Include="Cpostdeffectform.cpp" />
+    <ClCompile Include="CProjectForm.cpp" />
+    <ClCompile Include="CQuestionMaster.cpp" />
+    <ClCompile Include="CSentemailform.cpp" />
+    <ClCompile Include="CSetseopageinfo.cpp" />
+    <ClCompile Include="CSinglePageSettings.cpp" />
+    <ClCompile Include="CSubTaskForm.cpp" />
+    <ClCompile Include="CTaskForm.cpp" />
+    <ClCompile Include="Ctextchatform.cpp" />
+    <ClCompile Include="CTTDataSummery.cpp" />
+    <ClCompile Include="Cuploadappdata.cpp" />
+    <ClCompile Include="CUploadWorkLog.cpp" />
+    <ClCompile Include="Cusertaskdetails.cpp" />
+    <ClCompile Include="Cvoicechatform.cpp" />
+    <ClCompile Include="DeleteAdmin.cpp" />
+    <ClCompile Include="DeleteUser.cpp" />
+    <ClCompile Include="GetAllExternalLinks.cpp" />
+    <ClCompile Include="GetAllInternalLinks.cpp" />
+    <ClCompile Include="InviteUser.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NetworkRequest.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Services\AppAccountService.cpp" />
+    <ClCompile Include="Services\AppApiService.cpp" />
+    <ClCompile Include="Services\AppAuthService.cpp" />
+    <ClCompile Include="Services\AppCBService.cpp" />
+    <ClCompile Include="Services\AppCmsService.cpp" />
+    <ClCompile Include="Services\AppCommService.cpp" />
+    <ClCompile Include="Services\AppDTService.cpp" />
+    <ClCompile Include="Services\AppEComService.cpp" />
+    <ClCompile Include="Services\AppExamService.cpp" />
+    <ClCompile Include="Services\AppForumService.cpp" />
+    <ClCompile Include="Services\AppHRService.cpp" />
+    <ClCompile Include="Services\AppLicenseService.cpp" />
+    <ClCompile Include="Services\AppPMSeervice.cpp" />
+    <ClCompile Include="Services\AppSettingsService.cpp" />
+    <ClCompile Include="Services\AppTTService.cpp" />
+    <ClCompile Include="UserListDlg.cpp" />
+    <ClCompile Include="WebCloudAPITest.cpp" />
+    <ClCompile Include="WebCloudAPITestDoc.cpp" />
+    <ClCompile Include="WebCloudAPITestView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WebCloudAPITest.rc2" />
+    <None Include="WebCloudAPITest.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WebCloudAPITest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\WebCloudAPITest.ico" />
+    <Image Include="res\WebCloudAPITestDoc.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

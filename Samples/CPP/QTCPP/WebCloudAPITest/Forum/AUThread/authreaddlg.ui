@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AUThreadDlg</class>
+ <widget class="QDialog" name="AUThreadDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add|Update Thread</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>741</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>Select Forum and Topic</string>
+        </property>
+        <widget class="QComboBox" name="comboBox_Existing_Forum">
+         <property name="geometry">
+          <rect>
+           <x>141</x>
+           <y>70</y>
+           <width>221</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Existing Forum Name</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="Existing_Forum_Name">
+         <property name="geometry">
+          <rect>
+           <x>22</x>
+           <y>70</y>
+           <width>113</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Existing Forum Name</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>22</x>
+           <y>150</y>
+           <width>107</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Existing Topic Name</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="Existing_Topic_Name">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>150</y>
+           <width>221</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Existing Topic Name</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>Give a Thread Name and Description</string>
+        </property>
+        <widget class="QLabel" name="Thread_Name_AU_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>31</y>
+           <width>32</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>21</x>
+           <y>61</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Description</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Thread_Name_AU">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>271</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QTextEdit" name="Thread_Description_AU">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>61</y>
+           <width>271</width>
+           <height>159</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Existing Threads</string>
+        </property>
+        <widget class="QListWidget" name="listWidget_Existing_Threads">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>331</width>
+           <height>192</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>Upload Image</string>
+        </property>
+        <widget class="QCheckBox" name="Upload_Image_Check_Box">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Upload Image</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Upload_Image_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>70</y>
+           <width>231</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Upload_Image_pushButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>70</y>
+           <width>91</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Upload Image</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_Picture">
+         <property name="geometry">
+          <rect>
+           <x>28</x>
+           <y>105</y>
+           <width>321</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_AddNew">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>490</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add New</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel_AU">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>490</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_AU">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>490</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

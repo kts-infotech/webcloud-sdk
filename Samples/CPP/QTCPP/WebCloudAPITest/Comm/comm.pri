@@ -1,0 +1,8 @@
+include(GetAllAdminUsers/GetAllAdminUsers.pri)
+include(GetAllOnlineNormalUsers/GetAllOnlineNormalUsers.pri)
+include(GetAllOnlineSupportUsers/GetAllOnlineSupportUsers.pri)
+include(GetAllOnlineUsers/GetAllOnlineUsers.pri)
+include(GetAllUsers/GetAllUsers.pri)
+include(LaunchTextChatDemo/LaunchTextChatDemo.pri)
+include(LaunchVoiceChatDemo/LaunchVoiceChatDemo.pri)
+include(SendEmail/SendEmail.pri)

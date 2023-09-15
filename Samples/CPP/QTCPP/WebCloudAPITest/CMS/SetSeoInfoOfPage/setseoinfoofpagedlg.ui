@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetSEOInfoOfPageDlg</class>
+ <widget class="QDialog" name="SetSEOInfoOfPageDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Set SEO Info Of Page</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>211</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Select Menu</string>
+   </property>
+   <widget class="QListWidget" name="listWidgetMenu">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>191</width>
+      <height>501</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>491</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Update SEO Settings</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>471</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Default Settings</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>0</y>
+        <width>441</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Default SEO Settings</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Default Page Title :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditTitle">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Default Page Description :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditDescription">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>211</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Default Page Keywords :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditKeywords">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxAlias">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enable Aliasing</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonUpdate">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Update</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonReset">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Single Page Settings</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>441</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Single Page SEO Settings</string>
+      </property>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Selected Page : </string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxDefaultSEO">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Use Default SEO Settings</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Page Title :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditSTitle">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Page Description :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditSDesc">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>220</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Page Keywords :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEditSKeywords">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxEnableSocial">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>300</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enable Social Sharing Icons On Web Page</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxFinTip">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>340</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>FinTip Offers</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxFB">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>300</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>FaceBook</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxLinkedIn">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>300</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LinkedIn</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxTwitter">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>340</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Twitter</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxWhatsapp">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>340</y>
+         <width>76</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>WhatsApp</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelSelect">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>30</y>
+         <width>131</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSUpdate">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>400</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Update</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSReset">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>400</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButtonClose">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>520</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

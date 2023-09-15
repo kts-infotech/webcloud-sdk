@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Authenticate User</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Web URL</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEditWebUrl"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>User ID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Auth Token</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEditAuthToken"/>
+         </item>
+         <item row="1" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLineEdit" name="lineEditUserId"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Password</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEditPassword"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnLogin">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Request Data</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPlainTextEdit" name="plainTextEditReqData"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Response Data</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPlainTextEdit" name="plainTextEditRespData"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>484</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Account">
+    <property name="title">
+     <string>&amp;Account</string>
+    </property>
+    <addaction name="actionUser_List"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_User"/>
+    <addaction name="actionInvite_User"/>
+    <addaction name="actionDelete_User"/>
+    <addaction name="actionBlock_User"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Admin"/>
+    <addaction name="actionDelete_Admin"/>
+    <addaction name="separator"/>
+    <addaction name="actionGenerateTemSiteAccessToken"/>
+   </widget>
+   <widget class="QMenu" name="menuCMS">
+    <property name="title">
+     <string>CMS</string>
+    </property>
+    <addaction name="actionList_All_Page_Info_With_Links"/>
+    <addaction name="actionGet_Detailed_Page_Info"/>
+    <addaction name="actionGet_SEO_Info_Page"/>
+    <addaction name="actionSet_SEO_Info_Page"/>
+    <addaction name="actionGEt_All_Internal_Links"/>
+    <addaction name="actionGet_All_External_Links"/>
+    <addaction name="actionAdd_Internal_Link"/>
+    <addaction name="actionAdd_External_Link"/>
+    <addaction name="actionAdd_Delete_Header"/>
+    <addaction name="actionAdd_Delete_Footer"/>
+   </widget>
+   <widget class="QMenu" name="menuComm">
+    <property name="title">
+     <string>Comm</string>
+    </property>
+    <addaction name="actionGet_All_Users"/>
+    <addaction name="actionGet_All_Admin_Users"/>
+    <addaction name="actionGet_All_Online_Users"/>
+    <addaction name="actionGet_All_Online_Normal_Users"/>
+    <addaction name="actionGEt_All_Online_Support_Users"/>
+    <addaction name="actionSend_E_mail"/>
+    <addaction name="separator"/>
+    <addaction name="actionLaunch_Text_Chat_Demo"/>
+    <addaction name="actionLaunch_Voice_Chat_Demo"/>
+   </widget>
+   <widget class="QMenu" name="menuDT">
+    <property name="title">
+     <string>DT</string>
+    </property>
+    <addaction name="actionGet_Assigned_Task_List"/>
+    <addaction name="actionGet_Bug_Tracker_Task_Details_List"/>
+    <addaction name="actionGet_User_Task_Info"/>
+    <addaction name="actionGet_All_Bug_List"/>
+    <addaction name="separator"/>
+    <addaction name="actionPost_a_Defect_Bug"/>
+   </widget>
+   <widget class="QMenu" name="menuECom">
+    <property name="title">
+     <string>ECom</string>
+    </property>
+    <addaction name="actionList_All_Companies"/>
+    <addaction name="actionList_All_Company_Products"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Update_Delete_Company_Details"/>
+    <addaction name="actionAdd_Update_Delete_CompanyProducts"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Update_Payment_Gateway_Settings_3"/>
+   </widget>
+   <widget class="QMenu" name="menuExam">
+    <property name="title">
+     <string>Exam</string>
+    </property>
+    <addaction name="actionList_All_Exam_Categories"/>
+    <addaction name="actionList_All_Exam_Subcategories"/>
+    <addaction name="actionAdd_Exam_Categories"/>
+    <addaction name="actionAdd_Exam_Subcategory"/>
+    <addaction name="actionList_All_Questions_in_Subcategory"/>
+    <addaction name="actionAdd_Edit_Delete_Questions"/>
+    <addaction name="actionCopy_Questions"/>
+    <addaction name="actionImport_Data"/>
+    <addaction name="separator"/>
+    <addaction name="actionUpdate_Exam_Default_Settings"/>
+   </widget>
+   <widget class="QMenu" name="menuForum">
+    <property name="title">
+     <string>Forum</string>
+    </property>
+    <addaction name="actionGet_All_Forums"/>
+    <addaction name="actionGet_All_Topics"/>
+    <addaction name="actionGet_All_Threads"/>
+    <addaction name="actionDelete_a_Thread"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Update_Delete_Forum"/>
+    <addaction name="actionAdd_Update_Delete_Topics"/>
+    <addaction name="actionAdd_Update_Thread"/>
+    <addaction name="actionDelete_a_comment"/>
+    <addaction name="actionAdd_a_Comment"/>
+   </widget>
+   <widget class="QMenu" name="menuHR">
+    <property name="title">
+     <string>HR</string>
+    </property>
+    <addaction name="actionAdd_Update_Delete_Employ_Details"/>
+    <addaction name="actionInvite_Employee"/>
+    <addaction name="separator"/>
+    <addaction name="actionInform_HR_Manager_as_E_mail"/>
+    <addaction name="separator"/>
+    <addaction name="actionApply_for_Leave"/>
+    <addaction name="actionList_All_Leave_Applications"/>
+    <addaction name="actionApprove_Reject_Leave"/>
+   </widget>
+   <widget class="QMenu" name="menuLicense">
+    <property name="title">
+     <string>License</string>
+    </property>
+    <addaction name="actionRegister_Licence_User"/>
+    <addaction name="actionGet_Licence_Info"/>
+    <addaction name="actionLicence_Test_App"/>
+   </widget>
+   <widget class="QMenu" name="menuPM">
+    <property name="title">
+     <string>PM</string>
+    </property>
+    <addaction name="actionGet_All_Projects"/>
+    <addaction name="actionGet_All_Tasks"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_Update_Delete_Projects"/>
+    <addaction name="actionAdd_Update_Delete_Tasks"/>
+    <addaction name="actionAdd_Update_Delete_Subtasks"/>
+    <addaction name="separator"/>
+    <addaction name="actionAssign_Tasks"/>
+   </widget>
+   <widget class="QMenu" name="menuTT">
+    <property name="title">
+     <string>TT</string>
+    </property>
+    <addaction name="actionGet_Time_Tracker_Settings"/>
+    <addaction name="actionUpload_Work_Load"/>
+    <addaction name="actionTime_Tracker_Data_Summary_Info"/>
+   </widget>
+   <widget class="QMenu" name="menuCB">
+    <property name="title">
+     <string>CB</string>
+    </property>
+    <addaction name="actionUpload_File"/>
+    <addaction name="actionDownload_File"/>
+    <addaction name="actionList_All_Files_in_Directory"/>
+    <addaction name="actionCreate_Rename_Delete_a_Directory_File"/>
+    <addaction name="actionUpload_App_Data_Upload_App_File_Data"/>
+    <addaction name="actionDownload_App_Data_Download_App_File_Data"/>
+   </widget>
+   <addaction name="menu_Account"/>
+   <addaction name="menuCMS"/>
+   <addaction name="menuComm"/>
+   <addaction name="menuDT"/>
+   <addaction name="menuECom"/>
+   <addaction name="menuExam"/>
+   <addaction name="menuForum"/>
+   <addaction name="menuHR"/>
+   <addaction name="menuLicense"/>
+   <addaction name="menuPM"/>
+   <addaction name="menuTT"/>
+   <addaction name="menuCB"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUser_List">
+   <property name="text">
+    <string>User List</string>
+   </property>
+  </action>
+  <action name="actionAdd_User">
+   <property name="text">
+    <string>Add User</string>
+   </property>
+  </action>
+  <action name="actionInvite_User">
+   <property name="text">
+    <string>Invite User</string>
+   </property>
+  </action>
+  <action name="actionDelete_User">
+   <property name="text">
+    <string>Delete User</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionBlock_User">
+   <property name="text">
+    <string>Block User</string>
+   </property>
+  </action>
+  <action name="actionAdd_Admin">
+   <property name="text">
+    <string>Add Admin</string>
+   </property>
+  </action>
+  <action name="actionDelete_Admin">
+   <property name="text">
+    <string>Delete Admin</string>
+   </property>
+  </action>
+  <action name="actionGenerateTemSiteAccessToken">
+   <property name="text">
+    <string>GenerateTemSiteAccessToken</string>
+   </property>
+  </action>
+  <action name="actionList_All_Page_Info_With_Links">
+   <property name="text">
+    <string>List All Page Info With Links</string>
+   </property>
+  </action>
+  <action name="actionGet_Detailed_Page_Info">
+   <property name="text">
+    <string>Get Detailed Page Info</string>
+   </property>
+  </action>
+  <action name="actionGet_SEO_Info_Page">
+   <property name="text">
+    <string>Get SEO Info Page</string>
+   </property>
+  </action>
+  <action name="actionSet_SEO_Info_Page">
+   <property name="text">
+    <string>Set SEO Info Page</string>
+   </property>
+  </action>
+  <action name="actionGEt_All_Internal_Links">
+   <property name="text">
+    <string>Get All Internal Links</string>
+   </property>
+  </action>
+  <action name="actionGet_All_External_Links">
+   <property name="text">
+    <string>Get All External Links</string>
+   </property>
+  </action>
+  <action name="actionAdd_Internal_Link">
+   <property name="text">
+    <string>Add Internal Link</string>
+   </property>
+  </action>
+  <action name="actionAdd_External_Link">
+   <property name="text">
+    <string>Add External Link</string>
+   </property>
+  </action>
+  <action name="actionAdd_Delete_Header">
+   <property name="text">
+    <string>Add/Delete Header</string>
+   </property>
+  </action>
+  <action name="actionAdd_Delete_Footer">
+   <property name="text">
+    <string>Add/Delete Footer</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Users">
+   <property name="text">
+    <string>Get All Users</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Admin_Users">
+   <property name="text">
+    <string>Get All Admin Users</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Online_Users">
+   <property name="text">
+    <string>Get All Online Users</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Online_Normal_Users">
+   <property name="text">
+    <string>Get All Online Normal Users</string>
+   </property>
+  </action>
+  <action name="actionGEt_All_Online_Support_Users">
+   <property name="text">
+    <string>Get All Online Support Users</string>
+   </property>
+  </action>
+  <action name="actionSend_E_mail">
+   <property name="text">
+    <string>Send E-mail</string>
+   </property>
+  </action>
+  <action name="actionLaunch_Text_Chat_Demo">
+   <property name="text">
+    <string>Launch Text Chat Demo</string>
+   </property>
+  </action>
+  <action name="actionLaunch_Voice_Chat_Demo">
+   <property name="text">
+    <string>Launch Voice Chat Demo</string>
+   </property>
+  </action>
+  <action name="actionGet_Assigned_Task_List">
+   <property name="text">
+    <string>Get Assigned Task List</string>
+   </property>
+  </action>
+  <action name="actionGet_Bug_Tracker_Task_Details_List">
+   <property name="text">
+    <string>Get Bug Tracker Task Details List</string>
+   </property>
+  </action>
+  <action name="actionGet_User_Task_Info">
+   <property name="text">
+    <string>Get User Task Info</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Bug_List">
+   <property name="text">
+    <string>Get All Bug List</string>
+   </property>
+  </action>
+  <action name="actionPost_a_Defect_Bug">
+   <property name="text">
+    <string>Post a Defect|Bug</string>
+   </property>
+  </action>
+  <action name="actionList_All_Companies">
+   <property name="text">
+    <string>List All Companies</string>
+   </property>
+  </action>
+  <action name="actionList_All_Company_Products">
+   <property name="text">
+    <string>List All Company Products</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Company_Details">
+   <property name="text">
+    <string>Add|Update|Delete Company Details</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_CompanyProducts">
+   <property name="text">
+    <string>Add|Update|Delete CompanyProducts</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Payment_Gateway_Settings">
+   <property name="text">
+    <string>Add|Update Payment Gateway Settings</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Payment_Gateway_Settings_2">
+   <property name="text">
+    <string>Add|Update Payment Gateway Settings</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Payment_Gateway_Settings_3">
+   <property name="text">
+    <string>Add|Update Payment Gateway Settings</string>
+   </property>
+  </action>
+  <action name="actionList_All_Exam_Categories">
+   <property name="text">
+    <string>List All Exam Categories</string>
+   </property>
+  </action>
+  <action name="actionList_All_Exam_Subcategories">
+   <property name="text">
+    <string>List All Exam Subcategories</string>
+   </property>
+  </action>
+  <action name="actionAdd_Exam_Categories">
+   <property name="text">
+    <string>Add Exam Category</string>
+   </property>
+  </action>
+  <action name="actionAdd_Exam_Subcategory">
+   <property name="text">
+    <string>Add Exam Subcategory</string>
+   </property>
+  </action>
+  <action name="actionList_All_Questions_in_Subcategory">
+   <property name="text">
+    <string>List All Questions in Subcategory</string>
+   </property>
+  </action>
+  <action name="actionAdd_Edit_Delete_Questions">
+   <property name="text">
+    <string>Add|Edit|Delete Questions</string>
+   </property>
+  </action>
+  <action name="actionCopy_Questions">
+   <property name="text">
+    <string>Copy Questions</string>
+   </property>
+  </action>
+  <action name="actionImport_Data">
+   <property name="text">
+    <string>Import Data</string>
+   </property>
+  </action>
+  <action name="actionUpdate_Exam_Default_Settings">
+   <property name="text">
+    <string>Update Exam Default Settings</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Forums">
+   <property name="text">
+    <string>Get All Forums</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Topics">
+   <property name="text">
+    <string>Get All Topics</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Threads">
+   <property name="text">
+    <string>Get All Threads</string>
+   </property>
+  </action>
+  <action name="actionDelete_a_Thread">
+   <property name="text">
+    <string>Delete a Thread</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Forum">
+   <property name="text">
+    <string>Add|Update|Delete Forum</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Topics">
+   <property name="text">
+    <string>Add|Update|Delete Topics</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Thread">
+   <property name="text">
+    <string>Add|Update Thread</string>
+   </property>
+  </action>
+  <action name="actionDelete_a_comment">
+   <property name="text">
+    <string>Delete a comment</string>
+   </property>
+  </action>
+  <action name="actionAdd_a_Comment">
+   <property name="text">
+    <string>Add a Comment</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Employ_Details">
+   <property name="text">
+    <string>Add|Update|Delete Employee Details</string>
+   </property>
+  </action>
+  <action name="actionInvite_Employee">
+   <property name="text">
+    <string>Invite Employee</string>
+   </property>
+  </action>
+  <action name="actionInform_HR_Manager_as_E_mail">
+   <property name="text">
+    <string>Inform HR|Manager as E-mail</string>
+   </property>
+  </action>
+  <action name="actionApply_for_Leave">
+   <property name="text">
+    <string>Apply for Leave</string>
+   </property>
+  </action>
+  <action name="actionList_All_Leave_Applications">
+   <property name="text">
+    <string>List All Leave Applications</string>
+   </property>
+  </action>
+  <action name="actionApprove_Reject_Leave">
+   <property name="text">
+    <string>Approve|Reject Leave</string>
+   </property>
+  </action>
+  <action name="actionRegister_Licence_User">
+   <property name="text">
+    <string>Register Licence User</string>
+   </property>
+  </action>
+  <action name="actionGet_Licence_Info">
+   <property name="text">
+    <string>Get Licence Info</string>
+   </property>
+  </action>
+  <action name="actionLicence_Test_App">
+   <property name="text">
+    <string>Licence Test App</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Projects">
+   <property name="text">
+    <string>Get All Projects</string>
+   </property>
+  </action>
+  <action name="actionGet_All_Tasks">
+   <property name="text">
+    <string>Get All Tasks</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Projects">
+   <property name="text">
+    <string>Add|Update|Delete Projects</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Tasks">
+   <property name="text">
+    <string>Add|Update|Delete Tasks</string>
+   </property>
+  </action>
+  <action name="actionAdd_Update_Delete_Subtasks">
+   <property name="text">
+    <string>Add|Update|Delete Subtasks</string>
+   </property>
+  </action>
+  <action name="actionAssign_Tasks">
+   <property name="text">
+    <string>Assign Tasks</string>
+   </property>
+  </action>
+  <action name="actionGet_Time_Tracker_Settings">
+   <property name="text">
+    <string>Get Time Tracker Settings</string>
+   </property>
+  </action>
+  <action name="actionUpload_Work_Load">
+   <property name="text">
+    <string>Upload Work Load</string>
+   </property>
+  </action>
+  <action name="actionTime_Tracker_Data_Summary_Info">
+   <property name="text">
+    <string>Time Tracker Data Summary Info</string>
+   </property>
+  </action>
+  <action name="actionUpload_File">
+   <property name="text">
+    <string>Upload File</string>
+   </property>
+  </action>
+  <action name="actionDownload_File">
+   <property name="text">
+    <string>Download File</string>
+   </property>
+  </action>
+  <action name="actionList_All_Files_in_Directory">
+   <property name="text">
+    <string>List All Files in Directory</string>
+   </property>
+  </action>
+  <action name="actionCreate_Rename_Delete_a_Directory_File">
+   <property name="text">
+    <string>Create|Rename|Delete a Directory/File</string>
+   </property>
+  </action>
+  <action name="actionUpload_App_Data_Upload_App_File_Data">
+   <property name="text">
+    <string>Upload App Data|Upload App File Data</string>
+   </property>
+  </action>
+  <action name="actionDownload_App_Data_Download_App_File_Data">
+   <property name="text">
+    <string>Download App Data|Download App File Data</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionUser_List</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowUserList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Forums</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllForums()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Threads</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllThreads()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Topics</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllTopics()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDelete_a_Thread</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowDeleteAThread()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Update_Delete_Forum</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddUpdateDeleteForum()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Update_Delete_Topics</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddUpdateDeleteTopics()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Update_Thread</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddUpdateThread()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDelete_a_comment</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowDeleteAComment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_a_Comment</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddAComment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Delete_Footer</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAdddelFooter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Delete_Header</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAdddelHeader()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_External_Link</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddExternalLink()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Internal_Link</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddInternalLink()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_External_Links</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllExternalLinks()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGEt_All_Internal_Links</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllInternalLinks()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_Detailed_Page_Info</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetDetailedPageInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_SEO_Info_Page</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetSEOPageInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionList_All_Page_Info_With_Links</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowListAllPageInfoWithLinks()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSet_SEO_Info_Page</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowSetSEOInfoPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Users</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllUsers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Admin_Users</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllAdminUsers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Online_Users</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllOnlineUsers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Online_Normal_Users</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllOnlineNormalUsers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGEt_All_Online_Support_Users</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllOnlineSupportUsers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSend_E_mail</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowSendEmail()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_All_Bug_List</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAllBugList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_Assigned_Task_List</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetAssignedTaskList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_Bug_Tracker_Task_Details_List</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetBugTrackerDetailsList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGet_User_Task_Info</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGetUserInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionPost_a_Defect_Bug</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowPostADefectForm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionInvite_User</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowInviteUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_User</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAdduserlist()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Admin</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddAdminlist()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDelete_Admin</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowDeleteAdmin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDelete_User</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowDeleteUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionBlock_User</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowBlockUSer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionGenerateTemSiteAccessToken</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowGenerateTermSiteAccessToken()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Exam_Categories</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddExamCategory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Exam_Subcategory</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddExamSubCategory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionList_All_Exam_Categories</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowListExamCategory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionList_All_Exam_Subcategories</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowListExamSubCategory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionUpdate_Exam_Default_Settings</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowUpdateExamSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionList_All_Questions_in_Subcategory</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowListExamQuestions()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionImport_Data</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowImportData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionCopy_Questions</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowCopyQues()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Edit_Delete_Questions</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAddEditQues()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAdd_Update_Delete_Employ_Details</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowAdd_Update_DeleteEmploy_Details()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionInvite_Employee</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowInviteEmployee()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionInvite_Employee</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowInvite_Employee()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionApply_for_Leave</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowApply_For_Leave()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionApprove_Reject_Leave</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowApprove_Reject_Leave()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionList_All_Leave_Applications</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ShowList_All_Leave_Application()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ShowAdduserlist()</slot>
+  <slot>ShowGetAllForums()</slot>
+  <slot>ShowGetAllThreads()</slot>
+  <slot>ShowGetAllTopics()</slot>
+  <slot>ShowDeleteAThread()</slot>
+  <slot>ShowAddUpdateDeleteForum()</slot>
+  <slot>ShowAddUpdateDeleteTopics()</slot>
+  <slot>ShowAddUpdateThread()</slot>
+  <slot>ShowDeleteAComment()</slot>
+  <slot>ShowAddAComment()</slot>
+  <slot>ShowAdddelFooter()</slot>
+  <slot>ShowAdddelHeader()</slot>
+  <slot>ShowAddExternalLink()</slot>
+  <slot>ShowAddInternalLink()</slot>
+  <slot>ShowGetAllExternalLinks()</slot>
+  <slot>ShowGetAllInternalLinks()</slot>
+  <slot>ShowGetDetailedPageInfo()</slot>
+  <slot>ShowGetSEOPageInfo()</slot>
+  <slot>ShowListAllPageInfoWithLinks()</slot>
+  <slot>ShowSetSEOInfoPage()</slot>
+  <slot>ShowGetAllUsers()</slot>
+  <slot>ShowGetAllAdminUsers()</slot>
+  <slot>ShowGetAllOnlineUsers()</slot>
+  <slot>ShowGetAllOnlineNormalUsers()</slot>
+  <slot>ShowGetAllOnlineSupportUsers()</slot>
+  <slot>ShowSendEmail()</slot>
+  <slot>GetAllBugList()</slot>
+  <slot>ShowGetAllBugList()</slot>
+  <slot>slot1()</slot>
+  <slot>slot2()</slot>
+  <slot>ShowGetAssignedTaskList()</slot>
+  <slot>ShowGetBugTrackerDetailsList()</slot>
+  <slot>ShowGetUserInfo()</slot>
+  <slot>ShowPostADefectForm()</slot>
+  <slot>ShowAddAdminlist()</slot>
+  <slot>ShowInviteUser()</slot>
+  <slot>ShowBlockUSer()</slot>
+  <slot>ShowDeleteUser()</slot>
+  <slot>ShowDeleteAdmin()</slot>
+  <slot>ShowGenerateTermSiteAccessToken()</slot>
+  <slot>ShowAddExamCategory()</slot>
+  <slot>ShowAddExamSubCategory()</slot>
+  <slot>ShowListExamCategory()</slot>
+  <slot>ShowListExamSubCategory()</slot>
+  <slot>ShowUpdateExamSettings()</slot>
+  <slot>ShowListExamQuestions()</slot>
+  <slot>ShowImportData()</slot>
+  <slot>ShowCopyQues()</slot>
+  <slot>ShowAddEditQues()</slot>
+  <slot>ShowAdd_Update_DeleteEmploy_Details()</slot>
+  <slot>slot3()</slot>
+  <slot>ShowInvite_Employee()</slot>
+  <slot>ShowApply_For_Leave()</slot>
+  <slot>ShowApprove_Reject_Leave()</slot>
+  <slot>ShowList_All_Leave_Application()</slot>
+ </slots>
+</ui>

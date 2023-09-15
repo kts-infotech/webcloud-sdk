@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GetAllThreads</class>
+ <widget class="QDialog" name="GetAllThreads">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Get All Threads</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>21</y>
+     <width>371</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Select Thread ID</string>
+      </property>
+      <widget class="QComboBox" name="Select_Thread_ID">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Select Thread ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Name">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>40</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Thread Name</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Thread Details</string>
+      </property>
+      <widget class="QLabel" name="Thread_Details1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Bug Status : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Details2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Assigned Status : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Details3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Posted On : </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Thread_Details4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>351</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Author ID : </string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Thread Description   </string>
+      </property>
+      <widget class="QTextEdit" name="Thread_Description">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>331</width>
+         <height>101</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Close_Get_All_Thread">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>440</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

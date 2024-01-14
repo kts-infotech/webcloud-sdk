@@ -13,7 +13,7 @@ Please Read the following
    
    -> Then use your username or password to login
    
-   -> If you need full access use username: admin and password: admin
+   -> If you need full access use username: admin and password: check with internal team
    
 
 

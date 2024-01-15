@@ -71,16 +71,6 @@
 #include "CDeleteAComment.h"
 #include "CAddAComment.h"
 #include "CDeleteAThread.h"
-#include "CAddExamCategory.h"
-#include "CAddExamSubCategory.h"
-#include "CAddExamCategory.h"
-#include "CExamCategoriesList.h"
-#include "CExamSubCategories.h"
-#include "CExamQuestionPaper.h"
-#include "CExamDefaultSettings.h"
-#include "CImportData.h"
-#include "CCopy.h"
-#include "CQuestionMaster.h"
 #include "CGetLicenseInfo.h"
 
 // CWebCloudAPITestApp
@@ -135,15 +125,17 @@ BEGIN_MESSAGE_MAP(CWebCloudAPITestApp, CWinApp)
 	ON_COMMAND(ID_FORM_ADD_A_COMMENT, &CWebCloudAPITestApp::OnFormAddAComment)
 	ON_COMMAND(ID_FORUM_DELETE_A_THREAD, &CWebCloudAPITestApp::OnForumDeleteAThread)
 	ON_COMMAND(ID_COMM_GETALLONLINENORMALUSERS, &CWebCloudAPITestApp::OnCommGetallonlinenormalusers)
-	ON_COMMAND(ID_EXAM_ADDEXAMCATEGORY, &CWebCloudAPITestApp::OnExamAddexamcategory)
-	ON_COMMAND(ID_EXAM_ADDEXAMSUBCATEGORY, &CWebCloudAPITestApp::OnExamAddexamsubcategory)
-	ON_COMMAND(ID_EXAM_LISTALLEXAMCATEGORIES, &CWebCloudAPITestApp::OnExamListallexamcategories)
-	ON_COMMAND(ID_EXAM_LISTALLSUBCATEGOERIS, &CWebCloudAPITestApp::OnExamListallsubcategoeris)
-	ON_COMMAND(ID_EXAM_LISTALLQUESTIONSINSUBCATEGORY, &CWebCloudAPITestApp::OnExamListallquestionsinsubcategory)
-	ON_COMMAND(ID_EXAM_UPDATEEXAMDEFAULTSETTINGS, &CWebCloudAPITestApp::OnExamUpdateexamdefaultsettings)
-	ON_COMMAND(ID_EXAM_IMPORTDATA, &CWebCloudAPITestApp::OnExamImportdata)
-	ON_COMMAND(ID_EXAM_COPYQUESTIONS, &CWebCloudAPITestApp::OnExamCopyquestions)
-	ON_COMMAND(ID_EXAM_ADD, &CWebCloudAPITestApp::OnExamAdd)
+
+	//ON_COMMAND(ID_EXAM_ADDEXAMCATEGORY, &CWebCloudAPITestApp::OnExamAddexamcategory)
+	//ON_COMMAND(ID_EXAM_ADDEXAMSUBCATEGORY, &CWebCloudAPITestApp::OnExamAddexamsubcategory)
+	//ON_COMMAND(ID_EXAM_LISTALLEXAMCATEGORIES, &CWebCloudAPITestApp::OnExamListallexamcategories)
+	//ON_COMMAND(ID_EXAM_LISTALLSUBCATEGOERIS, &CWebCloudAPITestApp::OnExamListallsubcategoeris)
+	//ON_COMMAND(ID_EXAM_LISTALLQUESTIONSINSUBCATEGORY, &CWebCloudAPITestApp::OnExamListallquestionsinsubcategory)
+	//ON_COMMAND(ID_EXAM_UPDATEEXAMDEFAULTSETTINGS, &CWebCloudAPITestApp::OnExamUpdateexamdefaultsettings)
+	//ON_COMMAND(ID_EXAM_IMPORTDATA, &CWebCloudAPITestApp::OnExamImportdata)
+	//ON_COMMAND(ID_EXAM_COPYQUESTIONS, &CWebCloudAPITestApp::OnExamCopyquestions)
+	//ON_COMMAND(ID_EXAM_ADD, &CWebCloudAPITestApp::OnExamAdd)
+
 	ON_COMMAND(ID_PM_ADD, &CWebCloudAPITestApp::OnPmAdd)
 	ON_COMMAND(ID_PM_ADD32837, &CWebCloudAPITestApp::OnPmAdd32837)
 	ON_COMMAND(ID_PM_ADD32838, &CWebCloudAPITestApp::OnPmAdd32838)
@@ -393,60 +385,7 @@ void CWebCloudAPITestApp::OnAccountGenertetempsiteaccesstoken()
 }
  
 //Exam Menu Event-Handler
-void CWebCloudAPITestApp::OnExamAddexamcategory()
-{
-	CAddExamCategory ExmCtg;
-	ExmCtg.DoModal();
-}
 
-void CWebCloudAPITestApp::OnExamAddexamsubcategory()
-{
-	CAddExamSubCategory ExmSubCtg;
-	ExmSubCtg.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamListallexamcategories()
-{
-	CExamCategoriesList ListallCtg;
-	ListallCtg.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamListallsubcategoeris()
-{
-	CExamSubCategories ListallSubCtg;
-	ListallSubCtg.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamListallquestionsinsubcategory()
-{
-	CExamQuestionPaper ListallQSubCtg;
-	ListallQSubCtg.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamUpdateexamdefaultsettings()
-{ 
-	CExamDefaultSettings ExmDfStg;
-	ExmDfStg.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamImportdata()
-{
-	CImportData ImportDt;
-	ImportDt.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamCopyquestions()
-{
-	CCopy CpyExmQ;
-	CpyExmQ.DoModal();
-}
-
-void CWebCloudAPITestApp::OnExamAdd()
-{
-	CQuestionMaster EditExmQ;
-	EditExmQ.DoModal();
-
-}
 
 void CWebCloudAPITestApp::OnCmsAdddelfooter()
 {

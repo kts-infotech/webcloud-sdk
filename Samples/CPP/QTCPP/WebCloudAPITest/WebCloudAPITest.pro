@@ -33,14 +33,13 @@ include(Comm/comm.pri)
 include(CB/cb.pri)
 include(DT/dt.pri)
 include(Ecom/ecom.pri)
-include(Exam/exam.pri)
 include(Forum/forum.pri)
 include(HR/hr.pri)
 include(License/license.pri)
 include(PM/pm.pri)
 include(TT/tt.pri)
 include(Services/Services.pri)
-include(Exam/exam.pri)
+
 
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

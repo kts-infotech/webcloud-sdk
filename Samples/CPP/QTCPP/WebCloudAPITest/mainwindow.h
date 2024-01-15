@@ -78,15 +78,7 @@ private slots:
      void ShowDeleteAdmin();
      void ShowGenerateTermSiteAccessToken();
 
-     void ShowAddExamCategory();
-     void ShowAddExamSubCategory();
-     void ShowListExamCategory();
-     void ShowListExamSubCategory();
-     void ShowUpdateExamSettings();
-     void ShowListExamQuestions();
-     void ShowImportData();
-     void ShowCopyQues();
-     void ShowAddEditQues();
+
 
      void ShowAdd_Update_DeleteEmploy_Details();
      void ShowInvite_Employee();

@@ -7,16 +7,6 @@
 #include <QByteArray>
 #include <QJsonObject>
 
-#include "Exam/AddExamCategory/addexmctg_dlg.h"
-#include "Exam/AddExamSubCategory/addexmsubctg_dlg.h"
-#include "Exam/ListAllExamCategories/listexmctg_dlg.h"
-#include "Exam/ListAllExamSubCategories/listexmsubctg_dlg.h"
-#include "Exam/UpdateExamDefaultSettings/exmdeftstg_dlg.h"
-#include "Exam/ListAllQnsInSubCategory/listexmques_dlg.h"
-#include "Exam/ImportData/importdata_dlg.h"
-#include "Exam/CopyQns/copyques_dlg.h"
-#include "Exam/AEDQns/add_editques_dlg.h"
-
 #include "CMS/AddDeleteFooter/adddelfooterdlg.h"
 #include "CMS/AddDeleteHeader/adddelheaderdlg.h"
 #include "CMS/AddExternalLink/addexternallinkdlg.h"
@@ -369,59 +359,6 @@ void MainWindow::ShowGenerateTermSiteAccessToken()
     tempaccess->Generatetemp();
 }
 
-void MainWindow::ShowAddExamCategory()
-{
-   addexmctg_Dlg * dlg = new addexmctg_Dlg();
-   dlg->show();
-}
-
-void MainWindow::ShowAddExamSubCategory()
-{
-    addexmsubctg_Dlg * dlg = new addexmsubctg_Dlg();
-    dlg->show();
-}
-
-void MainWindow::ShowListExamCategory()
-{
-     listexmctg_Dlg  * dlg = new listexmctg_Dlg();
-     dlg->show();
-}
-
-void MainWindow::ShowListExamSubCategory()
-{
-   listexmsubctg_Dlg * dlg = new listexmsubctg_Dlg();
-   dlg->show();
-}
-
-void MainWindow::ShowUpdateExamSettings()
-{
-   exmdeftstg_Dlg * dlg = new exmdeftstg_Dlg();
-   dlg->show();
-}
-
-void MainWindow::ShowListExamQuestions()
-{
-   listexmQues_Dlg * dlg = new listexmQues_Dlg();
-   dlg->show();
-}
-
-void MainWindow::ShowImportData()
-{
-   importdata_Dlg * dlg = new importdata_Dlg();
-   dlg->show();
-}
-
-void MainWindow::ShowCopyQues()
-{
-    CopyQues_Dlg * dlg = new CopyQues_Dlg();
-    dlg->show();
-}
-
-void MainWindow::ShowAddEditQues()
-{
-    add_editQues_Dlg * dlg = new add_editQues_Dlg();
-    dlg->show();
-}
 
 void MainWindow::ShowAdd_Update_DeleteEmploy_Details()
 {

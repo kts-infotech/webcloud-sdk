@@ -200,8 +200,6 @@
     <ClInclude Include="CAddComment.h" />
     <ClInclude Include="CAdddelfooter.h" />
     <ClInclude Include="CAdddelhedear.h" />
-    <ClInclude Include="CAddExamCategory.h" />
-    <ClInclude Include="CAddExamSubCategory.h" />
     <ClInclude Include="CAddexternallink.h" />
     <ClInclude Include="CAddFourms.h" />
     <ClInclude Include="Caddinternalink.h" />
@@ -216,8 +214,6 @@
     <ClInclude Include="Calluserinfo.h" />
     <ClInclude Include="CApplyForLeave.h" />
     <ClInclude Include="CAssignTaskForm.h" />
-    <ClInclude Include="CCopy.h" />
-    <ClInclude Include="CDefault.h" />
     <ClInclude Include="CDelComment.h" />
     <ClInclude Include="CDeleteAComment.h" />
     <ClInclude Include="Cdeleteadmin.h" />
@@ -228,10 +224,6 @@
     <ClInclude Include="Cdownloadfilefromcloud.h" />
     <ClInclude Include="CDtgetassigntasklist.h" />
     <ClInclude Include="CEmployeeForm.h" />
-    <ClInclude Include="CExamCategoriesList.h" />
-    <ClInclude Include="CExamDefaultSettings.h" />
-    <ClInclude Include="CExamQuestionPaper.h" />
-    <ClInclude Include="CExamSubCategories.h" />
     <ClInclude Include="Cfilenameform.h" />
     <ClInclude Include="Cfileupload.h" />
     <ClInclude Include="CFormRegister.h" />
@@ -245,7 +237,6 @@
     <ClInclude Include="Cgetseopageinfo.h" />
     <ClInclude Include="CGetTTSettings.h" />
     <ClInclude Include="CHrSendEmail.h" />
-    <ClInclude Include="CImportData.h" />
     <ClInclude Include="CInviteEmployeeForm.h" />
     <ClInclude Include="Cinviteuser.h" />
     <ClInclude Include="CLeaveApplicationForm.h" />
@@ -254,7 +245,6 @@
     <ClInclude Include="CListLeaveApplications.h" />
     <ClInclude Include="Cpostdeffectform.h" />
     <ClInclude Include="CProjectForm.h" />
-    <ClInclude Include="CQuestionMaster.h" />
     <ClInclude Include="CSentemailform.h" />
     <ClInclude Include="CSetseopageinfo.h" />
     <ClInclude Include="CSinglePageSettings.h" />
@@ -310,8 +300,6 @@
     <ClCompile Include="CAddComment.cpp" />
     <ClCompile Include="CAdddelfooter.cpp" />
     <ClCompile Include="CAdddelhedear.cpp" />
-    <ClCompile Include="CAddExamCategory.cpp" />
-    <ClCompile Include="CAddExamSubCategory.cpp" />
     <ClCompile Include="CAddexternallink.cpp" />
     <ClCompile Include="CAddFourms.cpp" />
     <ClCompile Include="Caddinternalink.cpp" />
@@ -326,7 +314,6 @@
     <ClCompile Include="Calluserinfo.cpp" />
     <ClCompile Include="CApplyForLeave.cpp" />
     <ClCompile Include="CAssignTaskForm.cpp" />
-    <ClCompile Include="CCopy.cpp" />
     <ClCompile Include="CDefault.cpp" />
     <ClCompile Include="CDelComment.cpp" />
     <ClCompile Include="CDeleteAComment.cpp" />
@@ -338,10 +325,6 @@
     <ClCompile Include="Cdownloadfilefromcloud.cpp" />
     <ClCompile Include="CDtgetassigntasklist.cpp" />
     <ClCompile Include="CEmployeeForm.cpp" />
-    <ClCompile Include="CExamCategoriesList.cpp" />
-    <ClCompile Include="CExamDefaultSettings.cpp" />
-    <ClCompile Include="CExamQuestionPaper.cpp" />
-    <ClCompile Include="CExamSubCategories.cpp" />
     <ClCompile Include="Cfilenameform.cpp" />
     <ClCompile Include="Cfileupload.cpp" />
     <ClCompile Include="CFormRegister.cpp" />
@@ -355,7 +338,6 @@
     <ClCompile Include="Cgetseopageinfo.cpp" />
     <ClCompile Include="CGetTTSettings.cpp" />
     <ClCompile Include="CHrSendEmail.cpp" />
-    <ClCompile Include="CImportData.cpp" />
     <ClCompile Include="CInviteEmployeeForm.cpp" />
     <ClCompile Include="Cinviteuser.cpp" />
     <ClCompile Include="CLeaveApplicationForm.cpp" />
@@ -364,7 +346,6 @@
     <ClCompile Include="CListLeaveApplications.cpp" />
     <ClCompile Include="Cpostdeffectform.cpp" />
     <ClCompile Include="CProjectForm.cpp" />
-    <ClCompile Include="CQuestionMaster.cpp" />
     <ClCompile Include="CSentemailform.cpp" />
     <ClCompile Include="CSetseopageinfo.cpp" />
     <ClCompile Include="CSinglePageSettings.cpp" />

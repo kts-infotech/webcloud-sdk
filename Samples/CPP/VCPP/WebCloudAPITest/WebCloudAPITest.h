@@ -77,15 +77,17 @@ public:
 	afx_msg void OnForumDeleteAThread();
 	
 	afx_msg void OnCommGetallonlinenormalusers();
-	afx_msg void OnExamAddexamcategory();
-	afx_msg void OnExamAddexamsubcategory();
-	afx_msg void OnExamListallexamcategories();
-	afx_msg void OnExamListallsubcategoeris();
-	afx_msg void OnExamListallquestionsinsubcategory();
-	afx_msg void OnExamUpdateexamdefaultsettings();
-	afx_msg void OnExamImportdata();
-	afx_msg void OnExamCopyquestions();
-	afx_msg void OnExamAdd();
+
+	//afx_msg void OnExamAddexamcategory();
+	//afx_msg void OnExamAddexamsubcategory();
+	//afx_msg void OnExamListallexamcategories();
+	//afx_msg void OnExamListallsubcategoeris();
+	//afx_msg void OnExamListallquestionsinsubcategory();
+	//afx_msg void OnExamUpdateexamdefaultsettings();
+	//afx_msg void OnExamImportdata();
+	//afx_msg void OnExamCopyquestions();
+	//afx_msg void OnExamAdd();
+
 	afx_msg void OnPmAdd();
 	afx_msg void OnPmAdd32837();
 	afx_msg void OnPmAdd32838();

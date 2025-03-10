@@ -7,7 +7,7 @@ Please Read the following
  
    -> Please start and run "Samples\CSharp\WebCloudAPITest\WebCloudAPITest.sln"
    
-   -> Provide the URL http://test2.virtualtutor.co.in/ 
+   -> Provide the URL http://webcloudtest.virtualtutor.co.in/ 
    
    -> If you are not registered with this website please visit this website( through the web browser ) and register
    
